@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hash Techie Official</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR CREATION -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="nav-item nav-link active">Home</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a href="service.html" class="nav-item nav-link">Service</a>
+        <a href="booking.html" class="nav-item nav-link">Booking</a>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+      </nav>
+    </header>
+    <!-- LOGIN FORM CREATION -->
+    <div class="background"></div>
+    <div class="container">
+      <div class="item">
+        <h2 class="logo"><i class="bx bxl-xing"></i>PetLover</h2>
+        <div class="text-item">
+          <h2>Welcome! <br /><span> To Our Clinic </span></h2>
+          <p>
+            It's time to show love for that furry family member!<br />
+            The <b>PetLover</b> clinic was dreamed up by animal lovers for
+            animal lovers.
+          </p>
+        </div>
+      </div>
+      <div class="login-section">
+        <div class="form-box login">
+          <form>
+            <h2>Login</h2>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input id="sign-in-email" type="email" required />
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input id="sign-in-password" type="password" required />
+              <label>Password</label>
+            </div>
+            <div class="remember-password">
+              <label for=""><input type="checkbox" />Remember Me</label>
+              <a href="#">Forget Password</a>
+            </div>
+            <button id="sign-in-button" class="btn">Login</button>
+            <div class="create-account">
+              <p>
+                Create A New Account?
+                <a href="#" class="register-link">Register</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="form-box register">
+          <form>
+            <h2>Register</h2>
+
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-user"></i></span>
+              <input type="text" required />
+              <label>Username</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input id="sign-up-email" type="email" required />
+              <label>Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input id="sign-up-password" type="password" required />
+              <label>Password</label>
+            </div>
+            <div class="remember-password">
+              <label for=""
+                ><input type="checkbox" />I agree with this statment</label
+              >
+            </div>
+            <button id="sign-up-button" class="btn">Login</button>
+            <div class="create-account">
+              <p>
+                Already Have An Account?
+                <a href="#" class="login-link">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- SIGN UP FORM CREATION -->
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
